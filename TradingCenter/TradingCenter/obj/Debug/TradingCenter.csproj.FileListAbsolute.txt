@@ -1,0 +1,18 @@
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\bin\Debug\TradingCenter.exe
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\bin\Debug\TradingCenter.exe.config
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.FormHome.resources
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.Properties.Resources.resources
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.UserContolls.UCUnterSpieler.resources
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.UserContolls.UCUnterTradingListe.resources
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.csproj.GenerateResource.Cache
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.exe.licenses
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.exe
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.pdb
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\bin\Debug\TradingCenter.pdb
+F:\TFS_Timo\Ausbildung\TimoMangold\TradingCenter\TradingCenter\obj\Debug\TradingCenter.csprojResolveAssemblyReference.cache
+C:\Users\timo\Dropbox\Trading Center\TradingCenter\TradingCenter\bin\Debug\TradingCenter.exe.config
+C:\Users\timo\Dropbox\Trading Center\TradingCenter\TradingCenter\obj\Debug\TradingCenter.exe
+C:\Users\timo\Dropbox\Trading Center\TradingCenter\TradingCenter\obj\Debug\TradingCenter.pdb
+C:\Users\Erik\Dropbox\Trading Center\Neuer Ordner\TradingCenter\TradingCenter\bin\Debug\TradingCenter.exe.config
+C:\Users\Erik\Dropbox\Trading Center\Neuer Ordner\TradingCenter\TradingCenter\obj\Debug\TradingCenter.exe
+C:\Users\Erik\Dropbox\Trading Center\Neuer Ordner\TradingCenter\TradingCenter\obj\Debug\TradingCenter.pdb
