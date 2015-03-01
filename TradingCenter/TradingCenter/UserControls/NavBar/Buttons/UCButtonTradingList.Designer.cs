@@ -1,6 +1,6 @@
-﻿namespace TradingCenter.UserContolls
+﻿namespace TradingCenter.UserControls.NavBar.Buttons
 {
-    partial class UCUnterTradingListe
+    partial class UCButtonTradingList
     {
         /// <summary> 
         /// Erforderliche Designervariable.

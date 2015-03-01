@@ -16,7 +16,7 @@ namespace TradingCenter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormHome());
+            Application.Run(new TradingCenter.Forms.MainForm());
         }
     }
 }

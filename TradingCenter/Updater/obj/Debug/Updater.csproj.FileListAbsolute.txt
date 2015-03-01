@@ -1,0 +1,8 @@
+D:\Development\TradingCenter\TradingCenter\Updater\bin\Debug\Updater.exe.config
+D:\Development\TradingCenter\TradingCenter\Updater\bin\Debug\Updater.exe
+D:\Development\TradingCenter\TradingCenter\Updater\bin\Debug\Updater.pdb
+D:\Development\TradingCenter\TradingCenter\Updater\obj\Debug\Updater.FormUpdate.resources
+D:\Development\TradingCenter\TradingCenter\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\Development\TradingCenter\TradingCenter\Updater\obj\Debug\Updater.csproj.GenerateResource.Cache
+D:\Development\TradingCenter\TradingCenter\Updater\obj\Debug\Updater.exe
+D:\Development\TradingCenter\TradingCenter\Updater\obj\Debug\Updater.pdb

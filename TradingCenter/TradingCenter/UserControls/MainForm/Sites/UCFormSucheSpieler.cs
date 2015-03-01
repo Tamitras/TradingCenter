@@ -8,12 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TradingCenter.UserContolls
+namespace TradingCenter.UserControls.MainForm.Sites
 {
-    public partial class UCUnterSpieler : UserControl
+    public partial class UCFormSucheSpieler : UserControl
     {
-        public Boolean IsOpen { get; set; }
-        public UCUnterSpieler()
+        public UCFormSucheSpieler()
         {
             InitializeComponent();
         }

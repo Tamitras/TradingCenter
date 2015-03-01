@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TradingCenter.UserContolls
+namespace TradingCenter.UserControls.NavBar.Buttons
 {
-    public partial class UCUnterTradingListe : UserControl
+    public partial class UCButtonTradingList : UserControl
     {
         public Boolean IsOpen { get; set; }
-        public UCUnterTradingListe()
+        public UCButtonTradingList()
         {
             InitializeComponent();
         }

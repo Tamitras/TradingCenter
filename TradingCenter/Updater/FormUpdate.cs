@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Updater
 {
-    public partial class Form1 : Form
+    public partial class FormUpdate : Form
     {
-        public Form1()
+        public FormUpdate()
         {
             InitializeComponent();
         }

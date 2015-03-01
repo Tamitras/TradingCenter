@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Printing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,28 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormHome.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHome.Designer.cs">
-      <DependentUpon>FormHome.cs</DependentUpon>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserContols\UCUnterSpieler.cs">
+    <Compile Include="UserControls\MainForm\Sites\UCFormSucheSpieler.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserContols\UCUnterSpieler.Designer.cs">
-      <DependentUpon>UCUnterSpieler.cs</DependentUpon>
+    <Compile Include="UserControls\MainForm\Sites\UCFormSucheSpieler.Designer.cs">
+      <DependentUpon>UCFormSucheSpieler.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserContols\UCUnterTradingListe.cs">
+    <Compile Include="UserControls\NavBar\Buttons\UCButtonSuche.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserContols\UCUnterTradingListe.Designer.cs">
-      <DependentUpon>UCUnterTradingListe.cs</DependentUpon>
+    <Compile Include="UserControls\NavBar\Buttons\UCButtonSuche.Designer.cs">
+      <DependentUpon>UCButtonSuche.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormHome.resx">
-      <DependentUpon>FormHome.cs</DependentUpon>
+    <Compile Include="UserControls\NavBar\Buttons\UCButtonTradingList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\NavBar\Buttons\UCButtonTradingList.Designer.cs">
+      <DependentUpon>UCButtonTradingList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,11 +86,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserContols\UCUnterSpieler.resx">
-      <DependentUpon>UCUnterSpieler.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\MainForm\Sites\UCFormSucheSpieler.resx">
+      <DependentUpon>UCFormSucheSpieler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserContols\UCUnterTradingListe.resx">
-      <DependentUpon>UCUnterTradingListe.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\NavBar\Buttons\UCButtonSuche.resx">
+      <DependentUpon>UCButtonSuche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NavBar\Buttons\UCButtonTradingList.resx">
+      <DependentUpon>UCButtonTradingList.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,6 +117,7 @@
   <ItemGroup>
     <None Include="Resources\Transferliste.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

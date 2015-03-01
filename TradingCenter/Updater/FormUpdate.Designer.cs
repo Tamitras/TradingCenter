@@ -1,6 +1,6 @@
 ﻿namespace Updater
 {
-    partial class Form1
+    partial class FormUpdate
     {
         /// <summary>
         /// Erforderliche Designervariable.
