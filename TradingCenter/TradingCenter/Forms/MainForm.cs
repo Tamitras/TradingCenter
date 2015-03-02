@@ -12,11 +12,12 @@ namespace TradingCenter.Forms
 {    
     public partial class MainForm : Form
     {
-        #region Events
-
-        #endregion
-
         #region Attribute
+
+        /// <summary>
+        /// MainProvider für Datenbankzugriffe
+        /// </summary>
+        TradingCenter.Provider.MainProvider MainProvider { get; set; }
 
         /// <summary>
         /// UserControl für den Button "Suche"
@@ -36,8 +37,12 @@ namespace TradingCenter.Forms
 
         #endregion
 
+        #region Events
+
+        #endregion
+
         #region Konstruktor
-               
+
 
         public MainForm()
         {
@@ -103,6 +108,25 @@ namespace TradingCenter.Forms
         {
             
             this.panelMainForm.Controls["UCFormSucheSpieler"].Show();
+        }
+
+        /// <summary>
+        /// Methode zum Initialisieren des Programmes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            //Check for Updates
+            MainProvider = new Provider.MainProvider();
+            if (MainProvider.CheckForUpdates())
+            {
+                //Update wird installiert
+            }
+            else
+            {
+                // Kein Update
+            }            
         }
 
         /// <summary>
@@ -179,6 +203,8 @@ namespace TradingCenter.Forms
         }
 
         #endregion
+
+
 
         #region public Methoden
 

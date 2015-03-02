@@ -255,7 +255,7 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // FormHome
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -264,9 +264,10 @@
             this.Controls.Add(this.panelMainForm);
             this.Controls.Add(this.panelStatusBar);
             this.Controls.Add(this.panelNavBar);
-            this.Name = "FormHome";
+            this.Name = "MainForm";
             this.Text = "FormHome";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panelNavBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelMainForm.ResumeLayout(false);

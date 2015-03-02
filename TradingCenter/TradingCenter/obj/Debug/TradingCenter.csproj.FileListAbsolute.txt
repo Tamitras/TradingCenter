@@ -28,3 +28,5 @@ D:\Development\TradingCenter\TradingCenter\TradingCenter\obj\Debug\TradingCenter
 D:\Development\TradingCenter\TradingCenter\TradingCenter\obj\Debug\TradingCenter.exe
 D:\Development\TradingCenter\TradingCenter\TradingCenter\obj\Debug\TradingCenter.pdb
 D:\Development\TradingCenter\TradingCenter\TradingCenter\obj\Debug\TradingCenter.UserControls.MainForm.Sites.UCFormSucheSpieler.resources
+D:\Development\TradingCenter\TradingCenter\TradingCenter\bin\Debug\Updater.exe
+D:\Development\TradingCenter\TradingCenter\TradingCenter\bin\Debug\Updater.pdb
